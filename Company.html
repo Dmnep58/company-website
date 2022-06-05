@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daku Company</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+</head>
+<body>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-up"></i></button>
+   
+  <div class="navbar">
+      <div class="max-width">
+            <div class="logo"><a href="#">&#10086; DAKU<span>(BIRD).</span></a>
+            </div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+
+              <div class="dropdown">
+                     <button class="dropbtn">Company</button>
+                  <div id="myDropdown" class="dropdown-content">
+                       <a href="#about">About Us</a>
+                       <a href="#teams">Teams</a>
+                       <a href="#">Why Choose Us?</a>
+                  </div>
+               </div>
+                     
+              <div class="dropdown">
+                  <button class="dropbtn">service</button>
+                   <div class="dropdown-content">
+                       <a href="#">Branding</a>
+                       <a href="#">Influencer</a>
+                       <a href="#">Content</a>
+                       <a href="#">Marketing</a>
+                   </div>
+               </div>
+
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+              <div class="media">
+                  <a href="#" class="fa fa-facebook" aria-hidden="true"></a>
+                  <a href="#" class="fa fa-linkedin"></a>
+                  <a href="#" class="fa fa-instagram"></a> 
+                  <div id="myOverlay" class="overlay">
+                      <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+                      <div class="overlay-content">
+                           <form action="/action_page.php">
+                               <input type="text" placeholder="Search..." name="search">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                          </form>
+                      </div>
+                  </div>
+                  <button class="openBtn" onclick="openSearch()" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>     
+              </div>
+            </ul>
+
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+   </div>
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello Everyone</div>
+                <div class="text-2">Welcome TO DAKU</div>
+                <div class="text-3">Fly High Like A <span>BIRD.</span></div>
+                <a href="#">JOIN</a>
+                <a href="#">LOGIN</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="max-width">
+            <h3 class="title">DAKU COMPANY FOR <span>SOFTWARE</span></h3>
+            <div class="about-content">
+                <div class="column left">
+                <img src="./images/R.jpeg" alt="" class="src-1">
+                <img src="./images/B.png" alt="" class="src-2">
+                </div>
+            
+            <div class="column right">
+                <p>
+                    We are a software agency in Nepal that helps you connect, 
+                    converse, collaborate and co-create with your target customers. We 
+                    understand the different avenues of softwares in Nepal and 
+                    also know how to bring it all together.<br><br>
+
+                          We, a growing software agency in Nepal understand what it 
+                    takes to maximize your online reach and presence. We get to know our 
+                    client's goals, then develope custom digital strategies to achieve them.
+                </p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+           <section class="services">
+               <div class="max-width">
+                   <h3 class="title">OUR SERVICES..</h3>
+                   <p style="text-align:center">We understand the different avenues of software companies in Nepal and also know how to bring it all together.</p>
+                       <p><br>We believe that our services must have a real impact on the online world as well as in the conventional marketplace. Our work connects design and 
+                       technology to create stories, conversations, and user experience through its Social Media Management, Online Promotion, Professional Branding, 
+                       Search Engine Marketing, Email Marketing, Campaign Management, and Search Engine Optimization.</p>
+                
+                    <div class="carousel owl-carousel">
+           
+                        <div class="card">
+                            <div class="box">
+                                <i class="fas fa-copy" aria-hidden="true"></i>
+                                 <div class="text">Email Marketing</div>
+                                <p>Email Marketing A personalized message directly into the emails of thousands of your targeted customers? Sounds promising, doesn’t it? Email...
+                                 </p>
+                            </div>
+                        </div>
+            
+                        <div class="card">
+                            <div class="box">
+                               <i class="fas fa-vihara"></i>
+                                 <div class="text">Building And Design</div>
+                                <p>Brand Identity & Strategy Branding is what connects a company with its community. In a communication landscape that is digitally-led...
+                                 </p>
+                            </div>
+                        </div>
+            
+                        <div class="card">
+                            <div class="box">
+                               <i class="fas fa-lightbulb"></i>
+                                 <div class="text">Contant Desining</div>
+                                <p>Content that ranks and converts. Coverage to make sure it’s seen. In the online world, content is king. What your brand says is directly...
+                                 </p>
+                            </div>
+                        </div>
+            
+                        <div class="card">
+                            <div class="box">
+                               <i class="fab fa-whmcs"></i>
+                                 <div class="text">Search Engines</div>
+                                <p>Campaigns that drive the leads you want, backed by strategies that convert. Search engine marketing is one of the most popular forms of PPC, and...
+                                 </p>
+                            </div>
+                        </div>
+                         
+                        <div class="card">
+                            <div class="box">
+                               <i class="fas fa-laptop-code"></i>
+                                 <div class="text">Engine optimization</div>
+                                <p>An SEO process engineered to deliver, with the results to prove it. Search engine optimization is a particular way to make sure your website can...
+                                 </p>
+                            </div>
+                        </div>
+            
+                        <div class="card">
+                            <div class="box">
+                               <i class="fab fa-canadian-maple-leaf"></i>
+                                 <div class="text">Branding</div>
+                                <p>Brand Identity & Strategy Branding is what connects a company with its community. In a communication landscape that is digitally-led...
+                                 </p>
+                            </div>
+                        </div>
+                         
+                        <div class="card">
+                            <div class="box">
+                               <i class="fas fa-icons"></i>
+                                 <div class="text">Social Media</div>
+                                <p>Reach your target audience with ads they won’t be able to scroll past. A powerful tool of communication, social media allows companies to reach...
+                                 </p>
+                            </div>
+                        </div>
+                      
+                    </div>
+                </div>
+           </section>
+
+           <section class="work">
+               <div class="max-width">
+                  <div class="work-content">
+                       <div class="column left">
+                           <h4>WORK WITH US</h4>
+                          <p>
+                             We help companies create digital experiences, reach customers, and grow.
+                             We love what we do.
+                         </p>
+                      </div>
+
+                     <div class="column right">
+                          <p>Working with Lone Tree, digital marketing agency in Nepal, means helping 
+                           Nepal’s leading brands reach their digital goals through creative thought,
+                            skill, passion and the zeal to do better than the best every day.
+                            <br><br>Besides immense learning, responsibility and relevant work experience,
+                            we offer a fun young environment and appreciate the dedication and keen
+                           learners who are ready to be part of the booming Digital media space. We 
+                          are constantly on the lookout for people who love Digital media and want
+                          to a part of our success story. We believe that our services must have a 
+                          real impact on the online world as well as in the conventional marketplace. 
+                          Our work connects design and technology to create stories, conversations, and
+                           user experience through its Social Media Management, Online Promotion, Professional
+                            Branding, Search Engine Marketing, Email Marketing, Campaign Management, and Search Engine Optimization.</p>
+                      </div>
+                  </div>  
+              </div>
+           </section>
+          
+           <section class="card">
+               <div class="max-width">
+              <div class="flip-card">
+              <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./images/B.png" alt="Avatar" >
+              </div>
+              <div class="flip-card-back">
+                   <h1>Binayak Koirala</h1>
+                   <p> A.I Engineer</p>
+                  <button type="submit" class="cardbtn">More</button>
+                </div>
+               </div>
+             </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./images/I.jpg" alt="Avatar">
+              </div>
+              <div class="flip-card-back">
+                <h1>Ishika Adhikari</h1>
+                <p>Coder & Engineer</p>
+                <button type="submit" class="cardbtn">More</button>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./images/R.jpeg" alt="Avatar">
+              </div>
+              <div class="flip-card-back">
+                <h1>Rishav Innani</h1>
+                <p>Flirter</p>
+                <button type="submit" class="cardbtn">More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+
+        <section class="article">
+            <div class="max-width">
+                <div class="title">From our blogs</div>
+                <p>More articles from resources.</p>
+                <div class="article-content">
+                  <div class="c1"> <img src="./images/sm1.jpg" alt="software" srcset="">
+                   
+                    <p> <a href="">Eight reasons why you need software marketing in 2021.</a><br><span>April 21, 2021</span><br><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, laborum!
+                    </p></div>
+                 
+                   
+                    <p> <a href="">How to build awarness in social media</a><br>june 23, 2021<br><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, debitis.</p>
+                    <div class="c2"> <img src="./images/sm2.jpg" alt="" srcset=""></div>
+                  <div class="c3">
+                    <img src="./images/sm3.png" alt="" srcset="">
+                   
+                    <p> <a href="">The Beauty of Remaketing.</a><br>sep 21, 2021<br><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, facere.</p>
+                  </div>
+                </div>
+                <button class="articlebtn">View More</button>
+            </div>
+        </section>
+ 
+       <section class="apply">
+           <div class="max-width">
+               <div class="apply-content">
+
+                   <div class="column left">
+                      <a href="#">&#10086; DAKU(BIRD).</a>
+                      <p><span>Fly High Like A BIRD.</span><br><br>
+                          We are a software agency in Nepal that helps you connect, 
+                         converse, collaborate and co-create with your target customers. We 
+                         understand the different avenues of softwares in Nepal and 
+                         also know how to bring it all together.
+                     </p>
+                   </div>
+
+                   <div class="column middle">
+                           <h6>Company</h6>
+                           <p>&#128504;<a href="#">  Home Page</a></p><hr>
+                           <p>&#128504;<a href="#">  About Us</a></p><hr>
+                           <p>&#128504;<a href="#">  Our Service</a></p><hr>
+                           <p>&#128504;<a href="#">  Resources</a></p><hr>
+                           <p>&#128504;<a href="#">  Carrer</a></p><hr>
+                           <p>&#128504;<a href="#">  Contact Us</a></p>
+                   </div>
+
+                   <div class="column right">
+                          <form action="action.php" method="get">
+                              <legend>Contact Form</legend>
+                              <input type="text" name="name" id="name" placeholder="Name" required>
+                              <input type="email" name="email" id="email" placeholder="E-mail" required>
+                              <input type="number" name="phone" id="phone" placeholder="Phone Number" required>
+                              <input type="text" name="Cmpany" id="Company" placeholder="Company Name" required>
+                              <button type="submit">Send</button>
+                          </form>
+                   </div>
+                     
+                      </div>
+                      <div class="sexy-foodie">
+                        <hr> <p>Partner.</p><br>
+                        <a href="#"><img src="./images/sexy.jpeg" alt="Sexy-foodie" srcset=""><p>Sexy-foodie</p></a>
+                        <div class="img">
+                           <img src="./images/sexy.jpg" alt="pic1" srcset="">
+                           <img src="./images/sexy2.jpg" alt="pic2" srcset="">
+                           <img src="./images/sexy3.jpg" alt="pic3" srcset="">
+                           <img src="./images/sexy4.jpg" alt="pic4" srcset="">
+                        </div>
+                      <br>  <a href="" class="load">Load More</a> 
+                       <a href="https://www.instagram.com/sexy_foodiee/?hl=en"><i class="fa fa-instagram">   Follow on instagram</i></a> 
+               </div>
+           </div>
+       </section>
+       
+       
+<footer>
+  <span>Created By <a href="#">Devi Prasad Mishra </a><span class="far fa-copyright"></span> 2021 All rights reserved</span>
+  <a href="#" class="fa fa-facebook" aria-hidden="true"></a>
+  <a href="#" class="fa fa-linkedin"></a>
+  <a href="#" class="fa fa-instagram"></a> 
+</footer>
+     <script src="DAKU.js"></script>
+ </body>
+</html>
